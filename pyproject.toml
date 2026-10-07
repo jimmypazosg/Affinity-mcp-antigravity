@@ -1,14 +1,23 @@
 [project]
 name = "affinity-control-mcp"
 version = "0.1.0"
-description = "MCP server to control Serif / Canva Affinity creative apps on Windows"
+description = "MCP server connecting Google Antigravity 2.0 to Affinity by Canva creative apps on Windows"
 readme = "README.md"
 requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Jimmy Pazos", email = "jimmy.pazos@gmail.com" }
+]
 dependencies = [
     "mcp>=1.26.0",
     "pillow>=10.0.0",
     "pyautogui>=0.9.54",
 ]
+
+[project.urls]
+Homepage = "https://github.com/jimmypazosg/Affinity-mcp-antigravity"
+Repository = "https://github.com/jimmypazosg/Affinity-mcp-antigravity.git"
+Issues = "https://github.com/jimmypazosg/Affinity-mcp-antigravity/issues"
 
 [project.scripts]
 affinity-mcp = "server:mcp.run"

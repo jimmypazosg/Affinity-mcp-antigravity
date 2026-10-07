@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "affinity-mcp": {
+      "command": "C:/ruta/a/tu/entorno/.venv/Scripts/python.exe",
+      "args": [
+        "C:/ruta/a/tu/repositorio/server.py"
+      ],
+      "env": {
+        "PYTHONIOENCODING": "utf-8"
+      }
+    }
+  }
+}
