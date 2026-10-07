@@ -123,7 +123,7 @@ Edita o crea el archivo de configuración global de Antigravity en:
 ```
 
 > [!TIP]
-> Puedes usar como base el archivo [mcp_config.example.json](file:///c:/Users/jpazo/DEV/affinity-control-mcp/mcp_config.example.json) incluido en la raíz de este repositorio.
+> Puedes usar como base el archivo [mcp_config.example.json](mcp_config.example.json) incluido en la raíz de este repositorio.
 
 ### Opción B: Configuración con `uv` (si usas uv en lugar de venv)
 
